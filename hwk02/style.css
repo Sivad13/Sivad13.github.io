@@ -1,0 +1,43 @@
+*  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    background-image: url('./Assets/Images/subtle.jpg');
+    background-position: center center;
+    }
+header {
+padding: 20px;
+
+}
+
+.container {
+    /*box-sizing: border-box;*/
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+ 
+}
+
+.box-set {
+    position: relative;
+    height: 400px;
+    /*background: darkgray;*/
+  }
+  
+  .box {
+    width: 115px;
+    height: 115px;
+    /*background: #2db34a;*/  
+    border: 2px solid black;
+  }
+
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color:#096fdb;
+    color: silver;
+}
